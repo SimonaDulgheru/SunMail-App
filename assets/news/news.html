@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search BBC News</title>
+    <link rel="stylesheet" href="news.css">
+    <script src="https://kit.fontawesome.com/b448d7d57d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 class="header"> <i class="fas fa-newspaper"></i>News Search</h1>
+
+    <div class="container">
+        <p class="alert hide">No articles found. Search again</p>
+        <h2 class="heading-search"> <i class="far fa-list-alt"></i>Search Parameters </h2>
+        <div class="main-1">
+            <form class="form">
+                <label for="search_input">Search Terms:</label>
+                <input type="text" id="search-input" />
+                <label for="records-input">Number of Records to Retrieve:</label>
+                <input type="text" id="records-input" value="5" />
+                <label for="source-input">Source:</label>
+                <input type="text" id="source-input" />
+
+                <button class=" button button-search"><i class="fas fa-search"></i> Search</button>
+                <button class="button button-clear"> Clear Results</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="heading-articles"><i class="far fa-list-alt"></i>Top Articles</h2>
+            <div class="main-2">
+                <ul class="news-list"></ul>
+            </div>
+    </div>
+    <script src="news.js"></script>
+</body>
+
+</html>

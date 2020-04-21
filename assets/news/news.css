@@ -1,0 +1,58 @@
+.title-li{
+    font-weight: 800;
+}
+
+.paragraph-article {
+    font-weight: 500;
+}
+
+.news-div {
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.hide {
+ display: none;
+}
+
+.alert {
+    animation: seconds 1.0s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    -webkit-animation: seconds 1.0s forwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 2s;
+    background: red;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+      
+  }
+  @-webkit-keyframes seconds {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      left: -9999px; 
+      position: absolute;   
+    }
+  }
+  @keyframes seconds {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      left: -9999px;
+      position: absolute;     
+    }
+  }
+    
+   
+    
+   
+   
+
+
+
